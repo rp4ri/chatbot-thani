@@ -1,0 +1,6 @@
+python-dotenv
+nltk
+numpy
+scikit-learn
+torch
+matplotlib

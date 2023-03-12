@@ -1,0 +1,124 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": [
+          "Hola",
+          "Buenos días",
+          "Buenas tardes",
+          "¿Cómo estás?",
+          "¿Qué tal?",
+          "Hola, ¿cómo puedo ayudarte?",
+          "Hola, ¿en qué puedo ayudarte?",
+          "Hola, ¿necesitas ayuda?",
+          "¡Hola! Bienvenido a mi consulta en línea. ¿En qué puedo ayudarte?"
+        ],
+        "responses": [
+          "Hola, ¿en qué puedo ayudarte?",
+          "Hola, soy un chatbot psicoterapeuta. ¿En qué puedo ayudarte?",
+          "Hola, bienvenido a mi consulta en línea. ¿En qué puedo ayudarte?",
+          "¡Hola! Me alegra que hayas venido a hablar. ¿En qué puedo ayudarte?",
+          "Hola, ¿cómo puedo ayudarte hoy?"
+        ]
+      },
+      {
+        "tag": "despedida",
+        "patterns": [
+          "Adiós",
+          "Hasta luego",
+          "Nos vemos",
+          "Gracias por la ayuda",
+          "Gracias por hablar conmigo",
+          "Hablamos pronto",
+          "¡Chao!",
+          "¡Hasta la próxima!",
+          "¡Que tengas un buen día!",
+          "¡Que te mejores pronto!"
+        ],
+        "responses": [
+          "Hasta luego",
+          "Adiós",
+          "¡Chao!",
+          "Hablamos pronto",
+          "¡Que tengas un buen día!",
+          "¡Que te mejores pronto!"
+        ]
+      },
+      {
+        "tag": "problema_personal",
+        "patterns": [
+          "Estoy teniendo problemas personales",
+          "No sé qué hacer con mi vida",
+          "Siento que no tengo sentido en la vida",
+          "Me siento triste",
+          "Estoy deprimido",
+          "Siento que nadie me entiende",
+          "No tengo a nadie con quien hablar",
+          "No puedo superar una ruptura",
+          "Necesito ayuda con mis relaciones interpersonales",
+          "No puedo dormir por las noches"
+        ],
+        "responses": [
+          "Parece que estás pasando por un momento difícil. ¿Quieres hablar de ello?",
+          "Entiendo que puede ser difícil lidiar con problemas personales. ¿Quieres hablar de ello?",
+          "Lo siento mucho por lo que estás pasando. ¿Te gustaría compartir tus sentimientos conmigo?",
+          "No estás solo en esto. Estoy aquí para ayudarte en lo que necesites. ¿Quieres hablar de tus problemas personales?"
+        ]
+      },
+      {
+        "tag": "problema_profesional",
+        "patterns": [
+          "Estoy teniendo problemas en el trabajo",
+          "No me siento valorado en mi trabajo",
+          "No sé cómo avanzar en mi carrera",
+          "Siento que mi jefe me trata mal",
+          "Estoy estresado por mi trabajo",
+          "No puedo encontrar trabajo",
+          "Necesito ayuda con mi currículum",
+          "No sé cómo prepararme para una entrevista de trabajo",
+          "Necesito ayuda para encontrar un trabajo que me guste"
+        ],
+        "responses": [
+          "Entiendo que el trabajo puede ser una fuente de estrés.",
+          "¿Quieres hablar más sobre lo que te está molestando?",
+          "Estoy aquí para ayudarte. ¿Podrías compartir más sobre tu situación laboral?",
+          "Lo siento mucho por lo que estás pasando. ¿Quieres hablar de tus problemas en el trabajo?",
+          "Parece que estás teniendo problemas en tu carrera. ¿Te gustaría hablar de ello?"
+        ]
+      },
+      {
+        "tag": "consejo",
+        "patterns": [
+          "¿Qué debo hacer?",
+          "¿Qué me recomiendas?",
+          "¿Cuál es tu consejo?",
+          "¿Puedes ayudarme a tomar una decisión?",
+          "¿Qué piensas de mi situación?"
+        ],
+        "responses": [
+          "Creo que lo más importante es que confíes en ti mismo y en tus decisiones. ¿Hay algo en particular que te preocupa?",
+          "Me encantaría ayudarte a tomar una decisión. ¿Podrías compartir más sobre tu situación?",
+          "Siempre es difícil tomar decisiones importantes. ¿Podrías darme más detalles sobre tu situación?",
+          "No puedo tomar decisiones por ti, pero puedo ayudarte a explorar tus opciones. ¿Podrías compartir más sobre tu situación?",
+          "Mi consejo es que escuches tu corazón y hagas lo que sientas que es correcto para ti. ¿Hay algo específico que te preocupa?"
+        ]
+      },
+      {
+        "tag": "agradecimiento",
+        "patterns": [
+          "Gracias",
+          "Gracias por tu ayuda",
+          "Te agradezco mucho",
+          "Esto ha sido muy útil",
+          "Gracias por escuchar"
+        ],
+        "responses": [
+         "De nada. Estoy aquí para ayudarte cuando lo necesites.",
+          "No hay problema. Siempre estoy aquí para escucharte.",
+          "Me alegra haber sido de ayuda. ¿Hay algo más en lo que pueda ayudarte?",
+          "Siempre estoy aquí para ti. No dudes en contactarme si necesitas hablar de algo más.",
+          "No hay de qué. Estoy aquí para ayudarte en lo que necesites."
+        ]
+      }
+    ]
+}
